@@ -11,7 +11,7 @@ Ready-to-upload static website.
 5. Go to **Settings > Pages**, set Source to **Deploy from a branch**, Branch **main**, Folder **/(root)**, then Save. (If already set up, no changes are needed.)
 6. After GitHub Pages finishes deployment, visit https://sandeep9009.github.io/
 
-The website is independent of Jino’s account and uses relative paths suitable for the root domain.
+The site uses relative paths suitable for the root domain.
 
 ## What is included
 
@@ -22,6 +22,14 @@ The website is independent of Jino’s account and uses relative paths suitable 
 
 The IBM SkillsBuild deck is categorized as an *AI learning presentation*, not as proof of certificates owned by Sandeep. Only add credential verification if a certificate actually belongs to him.
 
-## GitHub app access
 
-The ChatGPT GitHub connector was signed into `jinosojan09-oss`, which has read-only access to Sandeep’s `robotic` repository. To have ChatGPT publish subsequent changes directly to Sandeep’s account, reconnect the GitHub plugin to `sandeep9009` and grant repository write access. This ZIP can be uploaded manually without doing so.
+## Project source acknowledgements
+
+The four interactive web demos in `signup/`, `dashboard/`, `library/`, and `tic-tac-toe/` were adapted from code originally published by Jino Jacob Sojan. They should not be described as independently authored by Sandeep without substantive independent development. Original sources:
+
+- https://github.com/jinosojan09-oss/jinosojan09-oss.github.io/tree/main/signup
+- https://github.com/jinosojan09-oss/jinosojan09-oss.github.io/tree/main/dashboard
+- https://github.com/jinosojan09-oss/jinosojan09-oss.github.io/tree/main/library
+- https://github.com/jinosojan09-oss/jinosojan09-oss.github.io/tree/main/tic-tac-toe
+
+The presentations provided for this portfolio may be adapted from existing material; they should not be represented as independent authorship or verified certifications without supporting evidence.
